@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/newsletter")
+@RequestMapping("/api/v1/newsletter")
 public class newsletterController {
     private SubscriberRepository subscriberRepository;
     private EmailService emailService;
